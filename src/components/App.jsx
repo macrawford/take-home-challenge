@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import '../../public/styles.css';
 
 function App() {
     const [properties, setProperties] = React.useState([]);
@@ -16,19 +17,18 @@ function App() {
         })
     }
     return (
-        <div>
-            <div>
-                {properties.map((property, index) => {
-                    return (
-                        <div key={index}>
-                            <div>property_id: {property.property_id}</div>
-                            <div>name: {property.name}</div>
-                            <div>email: {property.email}</div>
-                            <div>bedrooms: {property.bedrooms}</div>
-                        </div>
-                    )
-                })}
-            </div>
+        <div style={{fontFamily: "Avenir Next", paddingLeft: 30}}>
+            <div style={{fontSize: 30, marginBottom: 15}}>Properties in Madison, WI</div>
+            {properties.map((property, index) => {
+                return (
+                    <div key={index} style={{marginBottom: 12}}>
+                        <div>Property ID: {property.property_id}</div>
+                        <div>Name: {property.name}</div>
+                        <div>Email: {property.email}</div>
+                        <div>Bedrooms: {property.bedrooms}</div>
+                    </div>
+                )
+            })}
         </div>
     )
 }
