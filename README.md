@@ -1,6 +1,6 @@
 # Rentable Coding Exercise
 
-This app was created with a back-end framework of Node.js. The front end was built with React.js. Axios was used as the HTTP client. xml2js was used to parse xml.
+This app was created with a Node.js back-end framework. The front end was built with React.js. Axios was used as the HTTP client. xml2js was used to parse xml.
 
 ### Getting Started
 
