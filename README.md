@@ -6,6 +6,8 @@ This app was created with a Node.js back-end framework. The front end was built 
 
 Set-up should be fairly easy for this application. Clone the repo down locally and open in your editor of choice. From the project directory, on the command line run `npm install`. This should set up the dependencies for the project.
 
+(If you don't have Node.js installed, you may need to install those. Follow instruction for your OS at https://nodejs.org/en/download/)
+
 To boot up the project in your browser, run `npm run build` to bundle with webpack. Run `npm start` to run the start script and load the project in your browser. If successful, in the console you should see
 
 ```
