@@ -4,4 +4,11 @@ This app was created with a back-end framework of Node.js. The front end was bui
 
 ### Getting Started
 
-Set up should be fairly easy for this application. Clone this repo down locally and open in your editor of choice. From the project directory, on the command line run `npm install`. This should set up the dependencies for the project.
+Set-up should be fairly easy for this application. Clone the repo down locally and open in your editor of choice. From the project directory, on the command line run `npm install`. This should set up the dependencies for the project.
+
+To boot up the project in your browser, run `npm run build` to bundle with webpack. Run `npm start` to run the start script and load the project in your browser. If successful, you should see
+
+```
+[nodemon] starting `node server/index.js`
+App running on localhost:3000
+```
